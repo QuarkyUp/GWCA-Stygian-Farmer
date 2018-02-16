@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{309f4660-7d11-45bd-b7b7-c2903970d58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{1b5dee2f-124c-447d-bc19-ad5e09cf3832}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GWCAServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="GWCAConnection.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHandlers.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="EXRenderHook.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GWCAServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="GWCAConnection.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandEnums.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandStructs.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandHandlers.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="EXRenderHook.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
